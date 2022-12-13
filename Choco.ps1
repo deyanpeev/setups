@@ -22,6 +22,7 @@ choco install Minikube -y
 choco install nodejs-lts -y
 choco install openjdk -y
 choco install postman -y
+choco install pulumi -y
 choco install pycharm-community -y
 choco install python -y
 choco install python3 -y
