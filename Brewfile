@@ -5,10 +5,11 @@ tap "homebrew/services"
 brew "awscli"
 brew "docker", link: false
 brew "docker-compose"
+brew "go"
 brew "kubernetes-cli"
 brew "minikube"
 brew "mysql"
-brew "node"
+brew "node@18", link: true
 brew "python@3.10"
 cask "docker"
 cask "iterm2"
