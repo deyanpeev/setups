@@ -17,3 +17,4 @@ telnet
 thefuck
 xz
 maccy
+atlas
