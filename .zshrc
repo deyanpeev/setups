@@ -117,13 +117,18 @@ source <(kubectl completion zsh)
 # For a full list of active aliases, run `alias`.
 #
 
-AWS_PROFILE=dp-login
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+AWS_PROFILE=dp-dev
+alias awsin="aws-vault exec $AWS_PROFILE"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+alias sshconfig="code ~/.ssh/config"
+alias re-source="source ~/.zshrc"
 alias py=python3
 alias tf=terraform
 alias tg=terragrunt
-alias awsin=aws-vault exec $AWS_PROFILE
+alias ku=kubectl
+alias dockercompose="docker-compose"
+alias fucky="thefuck -y"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
