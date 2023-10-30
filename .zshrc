@@ -132,6 +132,7 @@ alias tf=terraform
 alias tg=terragrunt
 alias tfrm="rm -rf .terraform && rm .terraform.lock.hcl"
 alias tfi="terraform init"
+alias tfi-up="terraform init -upgrade"
 alias tfi-proton="terraform init -backend-config=dev.config.s3.tfbackend"
 alias tfp="terraform plan"
 alias tfa="terraform apply"
